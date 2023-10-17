@@ -10,6 +10,8 @@ Working on detecting hand gestures and building robotic hand.
 
 ## Create pipenv and install dependencies 
 
+Install Python 3.12.0
+
 ```shell 
 cd ./path/to/project
 pip install pipenv --user
