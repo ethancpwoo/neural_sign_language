@@ -10,7 +10,7 @@ def main():
     stop = False
 
     while not stop: 
-        img = capture.read()
+        success, img = capture.read()
         rgb_img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
         results = hands.process(rgb_img)
 
